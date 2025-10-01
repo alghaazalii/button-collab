@@ -17,4 +17,26 @@ header {
     background: linear-gradient(black, green);
     text-align: center;
     color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: orangered;
+    color: black;
+    font-weight: bold;
+}
+
+button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    /* font-weight: 500; */
+    line-height: 1.2;
+    border: 1px solid #dc3545;
+    border-radius: 4px;
+    cursor: pointer;
+    color: orangered;
+    background-color: white;
+    margin-left: 20px;
+    font-weight: bold;
 }
